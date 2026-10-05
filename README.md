@@ -1,19 +1,31 @@
 # Angry Bou — সংসারের স্লিংশট!
 
+[🎮 এখনই খেলুন / Play Angry Bou](https://mdmortuzahossain.github.io/angry-bou/)
+
+## Comedy update — v2.0
+
+- **মেগা অভিমান:** tap again in flight (or press Space) to burst nearby gifts and supports. Timing matters!
+- **ঝড়ের বেগ:** choose the turbo shot before launching, then activate it in flight to charge through the tower.
+- One special activation per shot; switching is available before launch.
+- A moving golden gift gives an extra shot and 300 points when hit or caught in a blast.
+- Destroy several gifts in one shot for escalating combo points, floating scores, impact effects, and live Bengali reactions.
+- Earn 1–3 stars per level: finish within 2 shots for three stars, within 4 for two. Retry a level to improve.
+- Wider later-level towers, a tea-holding husband, confetti, and new victory lines.
+
 A playful Bengali browser game with original canvas artwork, five levels, drag-to-launch controls, keyboard aiming, chain reactions, sound effects and a local best score. Fictional couple banter; gifts and everyday disagreements are the targets.
 
 ## Play
 
-Open `index.html` in a modern browser. No install, dependencies, network, or build step is needed. Drag the character backward and release. Break every gift box before shots run out. Aim at wooden supports to trigger chain reactions.
+Use the play link above, or open `index.html` in a modern browser. No install, dependencies, or build step is needed. Drag the character backward and release. Break every gift box before shots run out. Aim at wooden supports to trigger chain reactions. Tap again near a tower to use the selected power. On phones, landscape orientation gives you more room to aim.
 
 - Mouse/touch: drag and release the character.
-- Keyboard: focus the canvas; Left/Right adjust angle, Up/Down adjust power, Space launches, R restarts the current level.
+- Keyboard: focus the canvas; Left/Right adjust angle, Up/Down adjust power, Space launches or activates the special in flight, R restarts the current level.
 - Sound is opt-in. Best score stays in your browser when storage is available.
 - Restart retries the current level. Complete all five levels to replay.
 
 ## GitHub Pages
 
-Create an `angry-bou` repository and push these files to its `main` branch. In Settings → Pages, choose **Deploy from a branch**, branch **main**, folder **/(root)**, and Save. The game uses relative file paths so it works on a project Pages URL.
+The live game is published from **main**, folder **/(root)** using GitHub Pages. Future commits to that branch update the same play link after deployment. The game uses relative file paths so it also works on a fork's project Pages URL.
 
 ## Project
 
