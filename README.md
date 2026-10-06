@@ -2,20 +2,20 @@
 
 [🎮 এখনই খেলুন / Play Angry Bou](https://mdmortuzahossain.github.io/angry-bou/)
 
-## Reconciliation stories — v4.0
+## Activity edition — v5.0
 
-14 chapters: the eight village arcade chapters plus six new relationship stories. Choose actions to reduce the anger meter; gifts alone do not solve every problem.
+The six dialogue-choice chapters are now hands-on mini-games (chapters 8–13):
 
-- Relatives' hearsay: listen, explain the actual fair plan, then clear up the misunderstanding together.
-- Jealousy: explain who the tailor is, listen, and spend time together.
-- Phone: listen for eight seconds without picking it up; interruptions reset listening.
-- Missing coriander: bring coriander, acknowledge the mistake, help prepare dinner. Flowers alone fail.
-- Birthday: apologize, bring cake, then spend eight uninterrupted seconds together.
-- Chores: scrub six times, then serve tea with exactly two spoons of sugar. Too much sugar requires making a new cup.
-- More detailed characters with blinking, moving mouths and costume patterns; animated leaves, birds, ripples, water lilies, fence and alpana; wedding flowers and a tea stall; evening fair lights and a shared Ferris-wheel ride after winning.
-- Fullscreen (with an expanded-layout fallback), larger touch controls, and hideable instructions.
+- Match four invitation fragments to reveal the whole family's fair invitation. Drag pieces, or tap a piece then its numbered slot.
+- Match a sari's color and border to the sample in the tailor shop.
+- Put away the buzzing phone and deliver six requested objects before their deadlines.
+- Move through a market grid with arrow keys or adjacent tiles, collect all four groceries, and return home within 40 seconds. Baskets block the path; timeout restarts the route.
+- Move a plate to catch three falling cakes, place three candles, and pop five moving balloons.
+- Rub twelve dirty patches off a dish with a pointer, then stop a moving sugar meter in the green zone twice. Dirt patches and timing controls also support keyboard activation.
 
-New files: `reconcile.js` (story mechanics), `play-ui.js` (view controls), `story.css` (responsive story controls).
+The original eight arcade chapters, village characters, fair finale, fullscreen controls, sound effects and saved best score remain. Mini-game stars depend on mistakes, with retries supported.
+
+New files: `mini-games.js` and `mini-games.css`. The old `reconcile.js` remains archived in the repository but is no longer loaded by the game.
 
 ## Village edition — v3.0
 
@@ -33,7 +33,7 @@ Bengali speech requires a Bengali voice available in the browser. Captions and e
 - Earn 1–3 stars per level: finish within 2 shots for three stars, within 4 for two. Retry a level to improve.
 - Wider later-level towers, a tea-holding husband, confetti, and new victory lines.
 
-A playful Bengali browser game with original canvas artwork, fourteen chapters, drag-to-launch controls, keyboard aiming, chain reactions, dialogue choices, sound effects and a local best score. All characters and stories are fictional.
+A playful Bengali browser game with original canvas artwork, fourteen chapters, drag-to-launch controls, keyboard aiming, chain reactions, interactive mini-games, sound effects and a local best score. All characters and stories are fictional.
 
 ## Play
 
@@ -57,3 +57,4 @@ The live game is published from **main**, folder **/(root)** using GitHub Pages.
 - `game.js` — previous v2 engine, retained but not loaded.
 
 This is an original lightweight slingshot game inspired by the genre. No Angry Birds artwork, audio, characters, or source code is included. Future ideas: moving targets, more dialogue, additional levels, and more elaborate rigid-body physics.
+

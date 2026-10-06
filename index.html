@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#171c35"><title>Angry Bou — সংসারের স্লিংশট!</title>
-<link rel="stylesheet" href="style.css?v=4">
-<link rel="stylesheet" href="story.css?v=4">
-</head>
+<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="story.css?v=5">
+<link rel="stylesheet" href="mini-games.css?v=5"></head>
 <body>
 <main>
-<header><a class="brand" href="./"><span class="logo">✦</span><span>ANGRY <strong>BOU</strong><small>গ্রামের সংসার, মেলার আবদার!</small></span></a><div class="header-actions"><span class="badge">মান ভাঙাও · v4.0</span><button id="voice" aria-pressed="true">কথা: চালু</button><button id="sound" aria-label="শব্দ চালু করুন" aria-pressed="false">শব্দ: বন্ধ</button></div></header>
+<header><a class="brand" href="./"><span class="logo">✦</span><span>ANGRY <strong>BOU</strong><small>গ্রামের সংসার, মেলার আবদার!</small></span></a><div class="header-actions"><span class="badge">মান ভাঙাও · v5.0</span><button id="voice" aria-pressed="true">কথা: চালু</button><button id="sound" aria-label="শব্দ চালু করুন" aria-pressed="false">শব্দ: বন্ধ</button></div></header>
 <section class="intro"><div><p class="eyebrow">শান্তিপুরে স্বাগতম</p><h1>একটু অভিমান, <em>অনেক ভালোবাসা!</em></h1><p>কখনো বউয়ের পালা, কখনো বরের। চৌদ্দ পর্বের গল্প, মান ভাঙানো আর দুজনের মেলা!</p></div><div class="best">সেরা স্কোর <strong id="best">০</strong></div></section>
 <div class="chapter-nav"><label for="level-select">গল্প বাছুন</label><select id="level-select" aria-label="গল্প বাছুন"></select><small>যেকোনো পর্ব খেলুন · পর্ব বদলালে মোট স্কোর নতুন করে শুরু</small></div>
 <section id="arena" class="arena" aria-label="গেম"><div class="view-tools"><button id="fullscreen">⛶ পুরো স্ক্রিন</button><button id="hide-help" aria-expanded="true">নির্দেশনা লুকান</button><span id="view-status" role="status"></span></div><div class="mission-bar"><strong id="role">বউয়ের পালা</strong><p id="mission"></p></div><div class="hud"><div><small>পর্ব</small><strong id="level">১ / ৮</strong></div><div><small>স্কোর</small><strong id="score">০</strong></div><div><small id="shots-label">বাকি শট</small><strong id="shots">৫</strong></div><div><small id="target-label">বাকি বাধা</small><strong id="targets">৩</strong></div></div>
@@ -17,8 +17,9 @@
 <section id="mend-panel" class="mend-panel" hidden aria-label="মান ভাঙানোর মিশন"><div class="anger-row"><label for="anger" id="anger-text">অভিমান ৯০%</label><meter id="anger" min="0" max="100" low="30" high="65" optimum="0" value="90">90%</meter></div><h3 id="mend-prompt"></h3><div id="mend-actions" class="mend-actions"></div><p id="mend-progress" role="status" aria-live="polite"></p></section>
 <div class="commentator" role="status" aria-live="polite"><span>🎙 সংসার LIVE</span><p id="reaction">স্বামী: “আজকে আবার কী ভুল করলাম?”</p></div>
 <div class="game-footer"><div><span class="live-dot"></span><strong id="title"></strong><p id="quote"></p></div><button id="restart">↻ আবার খেলি</button></div></section>
-<section class="below"><article><span class="number">01</span><h3>অভিমান কমান, গল্প এগিয়ে নিন</h3><p>“মান ভাঙাও” পর্বে কথার বাটন বাছুন, ফোন সরিয়ে শুনুন, বাসন ঘষুন ও চায়ে মেপে চিনি দিন। পুরোনো স্লিংশট ও গিফটের মিশনও আছে। শট ছোড়ার পর আবার ট্যাপ করলে বিশেষ শক্তি বা গিফটের প্যারাসুট খুলবে।</p><small>← → কোণ · ↑ ↓ শক্তি · Space শট / বিশেষ শক্তি · R রিস্টার্ট · ফোনে আড়াআড়ি করে খেলুন</small></article><article class="dialogue"><span class="number">02</span><h3>আজকের ছোট্ট গল্প</h3><p id="banter"></p><small id="voice-note"></small></article></section>
+<section class="below"><article><span class="number">01</span><h3>অভিমান কমান, গল্প এগিয়ে নিন</h3><p>নতুন ছয় পর্বে কার্ড জোড়া লাগান, শাড়ি সাজান, সময়মতো জিনিস দিন, বাজারে হাঁটুন, কেক ধরুন আর বাসন ঘষুন। পুরোনো স্লিংশট ও গিফটের মিশনও আছে। শট ছোড়ার পর আবার ট্যাপ করলে বিশেষ শক্তি বা গিফটের প্যারাসুট খুলবে।</p><small>← → কোণ · ↑ ↓ শক্তি · Space শট / বিশেষ শক্তি · R রিস্টার্ট · ফোনে আড়াআড়ি করে খেলুন</small></article><article class="dialogue"><span class="number">02</span><h3>আজকের ছোট্ট গল্প</h3><p id="banter"></p><small id="voice-note"></small></article></section>
 <footer>নিজস্ব চরিত্র ও আঁকায় তৈরি বাংলা স্লিংশট গেম · Angry Bou <span>ভালোবাসার সংসারে একটু হাসি থাকুক ♡</span></footer>
-</main><script src="reconcile.js?v=4"></script><script src="scene.js?v=4"></script><script src="village.js?v=4"></script><script src="play-ui.js?v=4"></script>
+</main><script src="mini-games.js?v=5"></script><script src="scene.js?v=5"></script><script src="village.js?v=5"></script><script src="play-ui.js?v=5"></script>
 </body></html>
+
 
