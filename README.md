@@ -2,6 +2,21 @@
 
 [🎮 এখনই খেলুন / Play Angry Bou](https://mdmortuzahossain.github.io/angry-bou/)
 
+## Reconciliation stories — v4.0
+
+14 chapters: the eight village arcade chapters plus six new relationship stories. Choose actions to reduce the anger meter; gifts alone do not solve every problem.
+
+- Relatives' hearsay: listen, explain the actual fair plan, then clear up the misunderstanding together.
+- Jealousy: explain who the tailor is, listen, and spend time together.
+- Phone: listen for eight seconds without picking it up; interruptions reset listening.
+- Missing coriander: bring coriander, acknowledge the mistake, help prepare dinner. Flowers alone fail.
+- Birthday: apologize, bring cake, then spend eight uninterrupted seconds together.
+- Chores: scrub six times, then serve tea with exactly two spoons of sugar. Too much sugar requires making a new cup.
+- More detailed characters with blinking, moving mouths and costume patterns; animated leaves, birds, ripples, water lilies, fence and alpana; wedding flowers and a tea stall; evening fair lights and a shared Ferris-wheel ride after winning.
+- Fullscreen (with an expanded-layout fallback), larger touch controls, and hideable instructions.
+
+New files: `reconcile.js` (story mechanics), `play-ui.js` (view controls), `story.css` (responsive story controls).
+
 ## Village edition — v3.0
 
 Eight story chapters, village husband and wife animations, correct-gift delivery missions, startled chickens, and a fair finale with three collectible bangles. [Full update notes](VILLAGE-UPDATE.md).
@@ -18,7 +33,7 @@ Bengali speech requires a Bengali voice available in the browser. Captions and e
 - Earn 1–3 stars per level: finish within 2 shots for three stars, within 4 for two. Retry a level to improve.
 - Wider later-level towers, a tea-holding husband, confetti, and new victory lines.
 
-A playful Bengali browser game with original canvas artwork, eight levels, drag-to-launch controls, keyboard aiming, chain reactions, sound effects and a local best score. Fictional couple banter and everyday village stories.
+A playful Bengali browser game with original canvas artwork, fourteen chapters, drag-to-launch controls, keyboard aiming, chain reactions, dialogue choices, sound effects and a local best score. All characters and stories are fictional.
 
 ## Play
 
@@ -27,7 +42,7 @@ Use the play link above, or open `index.html` in a modern browser. No install, d
 - Mouse/touch: drag and release the slingshot's gift.
 - Keyboard: focus the canvas; Left/Right adjust angle, Up/Down adjust power, Space launches or activates the special in flight, R restarts the current level.
 - Sound is opt-in. Best score stays in your browser when storage is available.
-- Restart retries the current level. Complete all eight levels to replay, or choose a chapter from the story menu.
+- Restart retries the current level. Complete all fourteen chapters to replay, or choose a chapter from the story menu. Reconciliation chapters use on-screen choice buttons rather than the slingshot. Timed listening pauses while the tab is hidden.
 
 ## GitHub Pages
 
